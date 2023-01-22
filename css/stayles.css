@@ -80,6 +80,23 @@ img {
 
 /* MOBILE */
 @media screen and (max-width: 479px) {
+  .header-main-nav-tablet {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: 320px;
+    height: 60px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .header-tablet-menu {
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 767px) {
   .header-site-nav {
@@ -99,10 +116,24 @@ img {
     padding-left: 20px;
     padding-right: 20px;
   } */
+  .header-main-nav-tablet {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    height: 60px;
+    justify-content: space-between;
+  }
+  .header-tablet-menu {
+    display: flex;
+    align-items: center;
+  }
   .header-mobile-menu-open {
-    position: absolute;
-    top: 17px;
-    right: 20px;
     background-color: transparent;
     border: none;
     padding: 0;
@@ -211,6 +242,9 @@ img {
     padding-right: 32px;
     background-color: #84a178;
   }
+  .header-nav {
+    margin-right: auto;
+  }
   .header-main-nav-tablet {
     position: relative;
     display: flex;
@@ -219,7 +253,12 @@ img {
     width: 704px;
     height: 46px;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
+
   .header-tablet-menu {
     display: flex;
     align-items: center;
@@ -324,6 +363,38 @@ img {
   .header-mobil-menu {
     display: none;
   }
+  .header {
+    justify-content: start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .header-site-nav .link {
+    color: #f8d24e;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    transition: color 250ms var(--timing-function);
+  }
+  .header-nav {
+    display: flex;
+  }
+  .header-nav .header-iteam + .header-iteam {
+    margin-left: 28px;
+  }
+  .header-nav .link {
+    color: var(--bg-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    cursor: pointer;
+  }
+  .header-nav .link:hover,
+  .header-nav .link:focus {
+    color: var(--bg-yellow);
   }
 }
