@@ -120,6 +120,12 @@ img {
   cursor: pointer;
   fill: #fff;
 }
+.header-logo-menu {
+  position: absolute;
+  fill: #f8d24e;
+  top: 0;
+  left: 0;
+}
 .header-mobil-menu-nav {
   margin-left: auto;
   margin-right: auto;
