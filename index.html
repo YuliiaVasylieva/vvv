@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/stayles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="container header">
@@ -93,6 +93,47 @@
       </div>
       <div class="overlay js-overlay-modal"></div>
     </header>
+    <main>
+      <section class="hero_section">
+        <div class="container hero-container">
+          <div class="hero-title-wrap">
+            <h1 class="hero-title">
+              ice cream made with
+              <span class="hero-title passion">passion</span>
+            </h1>
+            <ul class="hero-menu list">
+              <li class="hero-menu-item">
+                <a href="" class="hero-menu-link hero-products link">
+                  Products
+                </a>
+              </li>
+              <li class="hero-menu-item">
+                <a href="" class="hero-menu-link link made">How it’s made?</a>
+              </li>
+            </ul>
+          </div>
+          <div class="quantity-wrap">
+            <p class="quantity-cafe quantity-number">16</p>
+            <p class="hero-text">cafes</p>
+            <p class="quantity-number quantity-trucks">23</p>
+            <p class="hero-text">food trucks</p>
+          </div>
+        </div>
+        <div class="ice_cream_plate-wrap">
+          <picture class="ice_cream_plate-img">
+            <source
+              media="(min-width: 1200px )"
+              srcset="./images/hero-manyice-desktop.png 1x"
+              type="image/png"
+            />
+            <img
+              src="./images/hero-manyice-desktop.png"
+              alt="plate with ice-cream"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
     <script src="./js/modal.js"></script>
   </body>
 </html>
